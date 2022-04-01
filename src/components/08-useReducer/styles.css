@@ -1,18 +1,45 @@
 body {
     padding: 50px;
+    background-color: #263147;
 }
 
-p{
+input {
+    background-color: #DFE0E3;
+    border: none;
+    height: 35px;
+    padding-bottom: 7px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+button {
+    height: 37px;
+}
+
+p {
     cursor: pointer;
     margin: 0px;
+    color: white;
+    margin-left: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, hr {
+    color: #ECEEF2;
 }
 
 .list-group-item{
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    background-color: #263147;
 }
 
 .complete{
     text-decoration: line-through;
+}
+
+.rodolfo {
+    position: Absolute;
+    right: 0px;
 }

@@ -42,7 +42,7 @@ export const TodoAdd = ({handleAddTodo}) => {
                 />
                 <button 
                 type='submit'
-                className='btn btn-outline-primary mt-1 col-12' >
+                className='btn btn-secondary mt-1 col-12' >
                     Agregar
                 </button>
             </form>

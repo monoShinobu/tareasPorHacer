@@ -27,11 +27,11 @@ export const Joaco = () => {
             <input type="text"
                     name='genero'
                     autoComplete='off'
-                    placeholder='El nombre'
+                    placeholder='El nombre . . . . . .'
                     onChange={handleGenre}/>
             <Button type='submit'
                     onClick={handleLogin}
-                    className="ms-1">
+                    className="btn btn-secondary ms-1">
                 es gay?
             </Button>
         </form>
